@@ -45,17 +45,19 @@ https://github.com/jemin7/Cursor
 
 ## Project Demo
 
-![Full Page Screenshot](./assets/screenshots/full-page.png)  
-![Hero Section](./assets/screenshots/hero.png)  
-![Feature Sections](./assets/screenshots/features.png)  
-![Footer](./assets/screenshots/footer.png)  
-
-*(Upload your actual screenshots to `assets/screenshots/` and update the paths if needed)*
+![Full Page Screenshot](./assets/screenshots/done1.png)  
+![ Section](./assets/screenshots/done2.png)  
+![Footer](./assets/screenshots/done3.png)  
+![codee1](./assets/screenshots/code1.png)  
+![codee2](./assets/screenshots/code2.png)  
+![codee3](./assets/screenshots/code3.png)
 
 ## Notes
+
 This project was created strictly for learning and assignment purposes.  
 All design inspiration and credit belong to Cursor.
 
 ## Author
+
 jemin  
 ChaiCode Web Development Cohort 2026 Assignment 🚀
