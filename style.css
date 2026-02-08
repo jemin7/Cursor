@@ -86,11 +86,80 @@ header {
   margin-left: 100px;
 }
 
-.center_nav a {
+
+#center_btn {
   text-decoration: none;
   color: var(--color-theme-text);
   padding: 0px 10px;
 }
+
+#dropdown-content a {
+  text-decoration: none;
+  color: var(--color-theme-text);
+  display: grid;
+  background-color: blue;
+  gap: 10px;
+  
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background: black;
+  min-width: 150px;
+  
+}
+
+/* 2-column dropdown styling */
+.dropdown-content-2col {
+  display: none;
+  position: absolute;
+  background: rgb(27, 25, 19);
+  min-width: 300px;
+  border-radius: 4px;
+  padding: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.dropdown-content-2col .dropdown-column {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+  margin: 0 1%;
+}
+
+.dropdown-content-2col .dropdown-column a {
+  display: block;
+  color: white;
+  padding: 10px;
+  background-color: transparent;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+.dropdown-content-2col .dropdown-column a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-content a {
+  display: grid;
+  color: white;
+  padding: 10px;
+  background-color: rgb(27, 25, 19);
+  text-decoration: none;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown:hover .dropdown-content-2col {
+  display: block;
+}
+
 
 /* Hero Section */
 .hero_section {
@@ -266,6 +335,10 @@ header {
   height: 680px;
   object-fit: cover;
   border-radius: 4px;
+}
+
+#Product {
+  color: rgb(245, 78, 0);
 }
 
 #main2text {
