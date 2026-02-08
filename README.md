@@ -50,7 +50,6 @@ https://github.com/jemin7/Cursor
 ![Footer](./assets/screenshots/done3.png)  
 ![codee1](./assets/screenshots/code1.png)  
 ![codee2](./assets/screenshots/code2.png)  
-![codee3](./assets/screenshots/code3.png)
 
 ## Notes
 
