@@ -492,8 +492,8 @@ header {
 /* Block1 Section */
 .block1 h2 {
   margin-inline: 110px;
-  margin-top: 140px;
-  font-size: 35px;
+  margin-top: 170px;
+  font-size: 26px;
   font-weight: 400;
   margin-bottom: 20px;
 }
@@ -503,7 +503,7 @@ header {
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
   margin-inline: 110px;
-  margin-top: 50px;
+  margin-top: 10px;
 }
 
 .case {
@@ -598,7 +598,7 @@ header {
   padding-inline: 14.2188px;
   flex-grow: 1;
   padding-bottom: 16.25px;
-  height: 98.28px;
+  height: 120.28px;
   text-decoration: none;
   color: inherit;
 }
@@ -774,18 +774,18 @@ header {
 /* Highlight Section */
 .highlight {
   background-color: #1b1913;
-  padding: 60px 0;
+  padding: 8px;
   margin-inline: 0 !important;
   margin-top: 140px !important;
 }
 
 .highlight-section {
-  margin-inline-start: auto;
+  margin-inline-start: 1px;
   margin-inline-end: auto;
   width: 100%;
   max-width: 1300px;
   background-color: transparent;
-  padding-inline: 110px;
+  padding: 89.6px 100px;
 }
 
 .highlight-section .highlight-container {
@@ -796,7 +796,7 @@ header {
 
 .highlight-section .highlight-container .heading {
   grid-column-start: 1;
-  grid-column-end: 7;
+  grid-column-end: 6;
 }
 
 .highlight-section .highlight-container .heading h2 {
@@ -811,8 +811,8 @@ header {
 }
 
 .highlight-article-container {
-  grid-column-start: 7;
-  grid-column-end: 19;
+  grid-column-start: 8;
+  grid-column-end: 22;
 }
 
 .highlight-article-container article {
@@ -828,9 +828,7 @@ header {
 .highlight-article-container article a {
   position: relative;
   border-radius: 4px;
-  padding-bottom: 12.1875px;
-  padding-top: 10.8875px;
-  padding-inline: 12.1875px;
+  padding: 13.4px 15px 15px 15px;
   background-color: #201e18;
   display: grid;
   gap: 10.4px;
@@ -870,7 +868,6 @@ header {
   font-size: 1rem;
   text-wrap-mode: initial;
   text-wrap-style: pretty;
-  margin-top: 8px;
 }
 
 .highlight-text-container .timeline {
