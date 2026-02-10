@@ -213,6 +213,8 @@ header {
   border-radius: var(--border-radius);
   background-color: var(--color-theme-text);
   cursor: pointer;
+  display: flex;
+  align-items: center;
 }
 
 .d-icon {
@@ -945,7 +947,7 @@ header {
   cursor: pointer;
   font-size: 1rem;
   font-weight: 400;
-  padding: 0.78em 1.35em 0.8em;
+  padding: 1px 1.35em;
   border-radius: var(--border-radius);
   display: inline-flex;
   justify-content: center;
@@ -953,6 +955,7 @@ header {
   line-height: 1;
   text-decoration: none;
 }
+
 
 .cta-btn-container .cta-btn .btn a .btn-icon {
   display: inline-flex;
